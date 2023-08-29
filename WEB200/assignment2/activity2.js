@@ -49,7 +49,7 @@ rarea = w * h;
 sarea = a * a;
 
 // ----- these are to calculate the area of a room -----
-var width = window.prompt("What is the length of your room in feet?");
+var width = window.prompt("What is the width of your room in feet?");
 var length = window.prompt("What is the length of your room in feet?");
 
 let area = length * width;

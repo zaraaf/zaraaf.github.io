@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1600 - 320));
+    background-color: #25DFD1;
+    /* margin: 0; */
+}
+
+p {
+    color: #000;
+}
