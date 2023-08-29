@@ -13,3 +13,12 @@ body {
 p {
     color: #000;
 }
+
+.btn {
+    margin-top: auto;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    border: thin solid #000;
+    color: #FFF;
+}
