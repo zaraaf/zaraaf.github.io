@@ -14,11 +14,26 @@ p {
     color: #000;
 }
 
+section {
+    margin-top: 20px;
+}
+
 .btn {
-    margin-top: auto;
+    font-size: larger;
     font-weight: bolder;
     text-decoration: none;
     text-align: center;
+    padding: 5px;
     border: thin solid #000;
-    color: #FFF;
+    background-color: #f0f8ff;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #f0f8ff;
+}
+
+.btn:active {
+    background-color: #7E9690;
+    color: #000;
 }
