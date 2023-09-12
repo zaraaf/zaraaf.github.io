@@ -6,4 +6,6 @@ During assignment 2, I learned that the fundamentals of javascript are VERY VERY
 
 During assignment 3, I learned that functions are used to keep code organized. I also learned how to use math objects and how they make the math so much easier to do and comprehend. I can use this in the real world to make sure my code looks nice and to make the math portion of my code a lot easier. 
 
+During assignment 4, I learned how to use JS events. This is very useful to get certain information when something is clicked or typed instead of a prompt loading in the moment the webpage is loaded. This is great for UX and makes the website work a lot smoother. I plan to use this in the real world to make sure the UX of my websites are good.
+
 zaraaf.github.io
