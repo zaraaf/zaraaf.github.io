@@ -1,5 +1,5 @@
-var hours = window.prompt("How many hours do you work a week?");
-var rate = window.prompt("How much do you make hourly?");
+var hours = window.prompt("How many hours do you work a week?", 1);
+var rate = window.prompt("How much do you make hourly?", 1);
 
 //calculates the pay based on what the user input in the window
 let week = hours * rate;
@@ -9,7 +9,7 @@ let monthly = week * 4;
 let annual = week * 52;
 
 // -----these are to calculate how old you are in different times.------
-var age = window.prompt("How old are you in years (round to the nearest year)?");
+var age = window.prompt("How old are you in years (round to the nearest year)?", 1);
 
 //calculates how old you are in months by multiplying how old you are by how many months are in a year 
 let month = age * 12;
@@ -22,7 +22,7 @@ let seconds = age * 31536000;
 
 
 // -----these are to calculate and convert lengths.-----
-var miles = window.prompt("How many miles would you like to convert?");
+var miles = window.prompt("How many miles would you like to convert?", 1);
 
 let yard = miles * 1760;
 let feet =  miles * 5280;
@@ -49,8 +49,8 @@ rarea = w * h;
 sarea = a * a;
 
 // ----- these are to calculate the area of a room -----
-var width = window.prompt("What is the width of your room in feet?");
-var length = window.prompt("What is the length of your room in feet?");
+var width = window.prompt("What is the width of your room in feet?", 1);
+var length = window.prompt("What is the length of your room in feet?", 1);
 
 let area = length * width;
 const squareYards = 3;

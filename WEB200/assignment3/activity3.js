@@ -16,7 +16,7 @@ function grossPay(hours, rate) {
 }
 
 //calls grossPay function and inputs hours and rate depending on what the user types.
-grossPay(window.prompt("How many hours do you work a week?"), window.prompt("How much do you make hourly?")); 
+grossPay(window.prompt("How many hours do you work a week?", 1), window.prompt("How much do you make hourly?", 1)); 
 
 //looks for 2 arguments radius and lSide
 function areaShapes (radius, lSide) {
@@ -45,4 +45,4 @@ function areaShapes (radius, lSide) {
 }
 
 //gets the radius of the circle and the length of the side of the  square
-areaShapes(window.prompt("What is the radius of your circle?"), window.prompt("What is the length of the side of your square?"));
+areaShapes(window.prompt("What is the radius of your circle?", 1), window.prompt("What is the length of the side of your square?", 1));
