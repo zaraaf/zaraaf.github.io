@@ -9,3 +9,15 @@ function multi() {
         i++;
     }
 }
+
+function guess() {
+    let userGuess = window.prompt("Pick a number between 0 and 100");
+
+    //failsafe if the user picked a number below 0 or above 100
+    if (userGuess < 0 || userGuess > 100) {
+        window.alert("PLEASE PICK A NUMBER BETWEEN 0 AND 100!!");
+    }
+    else {
+        dowhile ()
+    }
+}
