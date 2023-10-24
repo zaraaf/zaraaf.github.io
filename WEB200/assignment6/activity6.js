@@ -3,6 +3,7 @@ function multi() {
     let i = 0;
     let out = 0;
 
+    //so long as I is greater than or equal to 3 AND i less than or equal to 3 the loop will execute (This will execute 4 times)
     while (i >= 0 && i <= 3) {
         out = userNum * i;
         console.log(out);
@@ -11,19 +12,24 @@ function multi() {
 }
 
 function gradeAverage() {
+    //asks user how many grades they want to put in. this will be how many times the loop gets iterated.
     let getIterations = window.prompt("How many grades would you like to input?");
     let i = 0;
     let grade = 0;
     let gradeTotal = 0;
     let gradeAvg = 0;
+    //failsafe incase someone puts something that is not 0 or above
     if (getIterations <= 0) {
         window.alert("PLEASE PICK A NUMBER BIGGER THAN 0!")
     } else {
+        //so long as I is less then getIterations the loop will execute.
         while (i < getIterations) {
             grade = parseInt(prompt("Please input a score"));
+            //adds grade to grade total each time the user puts in a score
             gradeTotal += grade;
             i++;  
         }
+        //gets the average of all the scores
         gradeAvg = gradeTotal / getIterations;
         console.log(gradeAvg);
         document.getElementById("grades").innerHTML = "Your grade average is: " + gradeAvg;
