@@ -33,6 +33,42 @@ function guess() {
         window.alert("PLEASE PICK A NUMBER BETWEEN 0 AND 100!!");
     }
     else {
-        do while ()
-    }
+        high = 100;
+        // dowhile (userGuess != high || userGuess != low) {
+            // if (userGuess < high) {
+            //     low = (high + low) / 2;
+            // } else if (userGuess > high) {
+            //     high = (high + low) / 2;
+            // } else if (userGuess == high || userGuess == low) {
+            //     console.log("Is your number: " + userGuess);
+            // }
+        // }
+        do {
+            console.log("Give me one second while i guess your number");
+
+        } while(userGuess != high || userGuess != low) {
+            if (userGuess < high) {
+                low = (high + low) / 2;
+            } else if (userGuess > high) {
+                high = (high + low) / 2;
+            } else if (userGuess == high || userGuess == low) {
+                console.log("Is your number: " + userGuess);
+            }
+        }
+        
+        
+        // TEST 
+        // let res = "";
+        // let i = 0;
+        // let x = 0;
+        // do {
+
+        //     i=i+1;
+        //     res = res + 1;
+
+        // } while (x>5) {
+        //     console.log("HI");
+        // }
+
+     }
 }
