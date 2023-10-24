@@ -12,4 +12,6 @@ During assignment 5, I learned how to use if statements and case statements. Thi
 
 During assignment 6, I learned how to use while loops. This is very useful because it simplifies code and allows you to loop through logic until you get a desired output. This is amazing for when you want to loop through something more than once and you dont want your code to be just a jumbled mess. i.e (x + x = 1 x+x = 2 x+x = 3 x+x = 4) instead of writing all that out you can simplify it using a while loop. I will use this in the real world to simplify code.
 
+During assignment 7, I learned how to make use of for loops and the syntax for them. This is very useful because it allows you to loop through a predetermined amount instead of while loops which loop when you dont know how many times you are going to loop. This is great for when you have a predetermined amount that you are looping through. I can use this in the real world for when I need to loop through code that I already know how many times i want to loop through it (10 times, 20 times, etc).
+
 zaraaf.github.io
