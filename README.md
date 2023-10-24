@@ -8,4 +8,8 @@ During assignment 3, I learned that functions are used to keep code organized. I
 
 During assignment 4, I learned how to use JS events. This is very useful to get certain information when something is clicked or typed instead of a prompt loading in the moment the webpage is loaded. This is great for UX and makes the website work a lot smoother. I plan to use this in the real world to make sure the UX of my websites are good.
 
+During assignment 5, I learned how to use if statements and case statements. This is very useful because if statements are used in almost EVERY single program that is made that has logic. This also opens up an avenue for making failsafes to make sure that something that you dont want to happen wont happen. I plan to use this in the real world when making almost any code that has logic that needs to be done.
+
+During assignment 6, I learned how to use while loops. This is very useful because it simplifies code and allows you to loop through logic until you get a desired output. This is amazing for when you want to loop through something more than once and you dont want your code to be just a jumbled mess. i.e (x + x = 1 x+x = 2 x+x = 3 x+x = 4) instead of writing all that out you can simplify it using a while loop. I will use this in the real world to simplify code.
+
 zaraaf.github.io
