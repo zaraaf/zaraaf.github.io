@@ -14,4 +14,6 @@ During assignment 6, I learned how to use while loops. This is very useful becau
 
 During assignment 7, I learned how to make use of for loops and the syntax for them. This is very useful because it allows you to loop through a predetermined amount instead of while loops which loop when you dont know how many times you are going to loop. This is great for when you have a predetermined amount that you are looping through. I can use this in the real world for when I need to loop through code that I already know how many times i want to loop through it (10 times, 20 times, etc).
 
+During assignment 8, I learned how to make use of arrays. This is very useful because it allows you to store multiple entries into an array to be later picked out or used in a logic statement. I will use this in the real world when making any kind of menu that can be interacted with or when using multiple buttons that add something to an order section of a website.
+
 zaraaf.github.io
