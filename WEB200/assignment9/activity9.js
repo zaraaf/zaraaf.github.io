@@ -6,9 +6,10 @@ function getDate() {
    let hours = date.getHours();
    let minutes = date.getMinutes();
    let seconds = date.getSeconds();
+   let i = 0;
 
-   const daysOWeek = [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday];
-
+   // const daysOWeek = [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday];
+   
    document.getElementById("date").innerHTML = "Full date: " + date;
    document.getElementById("year").innerHTML = "Year: " + year;
    document.getElementById("month").innerHTML = "Months: " + month;
@@ -24,4 +25,12 @@ function getDate() {
    // minutes = date.getMinutes;
    // seconds = date.getSeconds;
    setInterval(getDate, 1000);
+
+}
+
+function datePick() {
+   const selectedDate = new Date(document.getElementById("datePicked").value);
+   document.getElementById("year").value = selectedDate.getUTCFullYear();
+   document.getElementById("month").value = selectedDate.getMonth();
+   document.getElementById("day").value = selectedDate.getDay();
 }
