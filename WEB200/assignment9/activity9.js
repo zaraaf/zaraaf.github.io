@@ -29,8 +29,10 @@ function getDate() {
 }
 
 function datePick() {
+   //gets the date selected from the form field
    const selectedDate = new Date(document.getElementById("datePicked").value);
-   document.getElementById("year").value = selectedDate.getUTCFullYear();
-   document.getElementById("month").value = selectedDate.getMonth();
-   document.getElementById("day").value = selectedDate.getDay();
+   //outputs the year (UTC), month, and day.
+   document.getElementById("years2").value = selectedDate.getUTCFullYear();
+   document.getElementById("months2").value = selectedDate.getMonth();
+   document.getElementById("days2").value = selectedDate.getDay();
 }
