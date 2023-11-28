@@ -32,9 +32,9 @@ function mlaMethod() {
     //a method to automatically output into MLA format
     newBook.displayMLA = function () {
         //returns in MLA format
-        return this.lName + ", " + this.fName + " " + this.mName + ". " + newBook.title + ". " + newBook.publisher + ", " + newBook.year + ". ";
+        return "MLA method: " + this.lName + ", " + this.fName + " " + this.mName + ". " + newBook.title + ". " + newBook.publisher + ", " + newBook.year + ". ";
     }
-    let apaForm = newBook.lName + ", " + newBook.fName + ". " + newBook.mName + ". " + "(" + newBook.year + ") " + newBook.title + ". " + newBook.city + ", " + newBook.state + ": " + newBook.publisher + ".";
+    let apaForm = "APA method: " + newBook.lName + ", " + newBook.fName + ". " + newBook.mName + ". " + "(" + newBook.year + ") " + newBook.title + ". " + newBook.city + ", " + newBook.state + ": " + newBook.publisher + ".";
     document.getElementById("mla").innerHTML = newBook.displayMLA();
     document.getElementById("aAPA").innerHTML = apaForm;
 }
