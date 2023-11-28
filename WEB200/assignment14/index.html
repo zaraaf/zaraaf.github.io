@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is assingment 14">
+    <link rel="stylesheet" href="styles/styles.css">
+    
+    <title>Assignment 14</title>
+  </head>
+  <body>
+    <h1>Assignment 14</h1>
+
+    <h2>ACTIVITY 2</h2>
+    <form>
+        <!-- maxlength sets the maximum length that is accepted -->
+        <label for="fName">First Name:</label>
+        <input type="text" id="fName" minlength="3" maxlength="50" placeholder="Jane" required>
+
+        <!-- minlength sets the minimum length that is accepted -->
+        <label for="lName">Last Name:</label>
+        <input type="text" id="lName" minlength="3" placeholder="Doe" required>
+
+        <label for="add">Address:</label>
+        <input type="text" id="add" placeholder="123 elmostreet" required>
+
+        <label for="cit">City:</label>
+        <input type="text" id="cit" placeholder="Hanover Park" required>
+
+        <!-- value sets a default value for an input field -->
+        <label for="reg">Region:</label>
+        <input type="text" id="reg" value="United States" required>
+
+        <!-- required makes the input field required to be filled out -->
+        <label for="postalCode">Postal Code:</label>
+        <input type="text" id="postalCode" placeholder="12345" required>
+
+        <!-- placeholder sets a placeholder in the input field -->
+        <label for="e-mail">Email Address:</label>
+        <input type="email" id="e-mail" placeholder="janedoe@gmail.com" required>
+
+        <!-- pattern sets what the pattern should be -->
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+        
+        <!-- min max tell the min date and the max date allowed -->
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" id="dateOfBirth" min="1940-1-1" max="2023-12-31" placeholder="yy-mm-dd" required>
+
+        <!-- this is what is used to submit the form -->
+        <input type="submit" onclick="addUser()" value="Submit activity 2 form">
+
+    </form>
+
+    <p id="submited" ></p>
+
+    <button onclick="addUser()">CLICK ME</button>
+
+    <script src="activity14.js"></script>
+    <section>
+      <a href="../index.html" class="btn btn-back">back</a>
+    </section>
+  </body>
+</html>
