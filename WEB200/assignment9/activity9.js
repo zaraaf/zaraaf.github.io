@@ -28,6 +28,7 @@ function getDate() {
 
 }
 
+//activity 2
 function datePick() {
    //gets the date selected from the form field
    const selectedDate = new Date(document.getElementById("datePicked").value);
